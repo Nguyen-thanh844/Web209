@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Mescedes Ben",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ZNaA-q8zdtyFgi1OIIQb-hTriXCeNJzT2Q&s",
+      "description": "The Essence Mascara Lash Princess",
+      "price": 9.99
+    },
+    {
+      "id": 2,
+      "title": "Audi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ZNaA-q8zdtyFgi1OIIQb-hTriXCeNJzT2Q&s",
+      "description": "Th Mascara Lash Princess",
+      "price": 13.99
+    }
+  ]
+}
