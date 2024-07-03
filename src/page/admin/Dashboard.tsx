@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 type Props = {
   products: IProduct[]
-  handleRemove: (id: number) => void
+  handleRemove: (id:number) => void
 }
 
 const Dashboard = ({ products, handleRemove }: Props) => {
@@ -34,7 +34,9 @@ const Dashboard = ({ products, handleRemove }: Props) => {
               <td>{item.price}</td>
               <td>{item.description}</td>
               <td>
-                <button className='btn btn-warning'>Sửa</button>
+                <Link to={`/admin/product-edit/${item.id}`} className='btn btn-warning'>
+                  Sửa
+                </Link>
                 <button className='btn btn-danger' onClick={() => handleRemove(Number(item.id))}>
                   Xóa
                 </button>
@@ -43,7 +45,9 @@ const Dashboard = ({ products, handleRemove }: Props) => {
           ))}
         </tbody>
       </table>
-      <Link to="/admin/product-add" className='btn btn-primary'>Thêm</Link>
+      <Link to='/admin/product-add' className='btn btn-primary'>
+        Thêm
+      </Link>
     </div>
   )
 }

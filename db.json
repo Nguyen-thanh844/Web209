@@ -2,17 +2,24 @@
   "products": [
     {
       "id": 1,
-      "title": "Mescedes Ben",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ZNaA-q8zdtyFgi1OIIQb-hTriXCeNJzT2Q&s",
-      "description": "The Essence Mascara Lash Princess",
-      "price": 9.99
+      "title": "Quần dài",
+      "image": "https://picsum.photos/300/200",
+      "description": "quần ống đứng",
+      "price": 2500
     },
     {
       "id": 2,
-      "title": "Audi",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ZNaA-q8zdtyFgi1OIIQb-hTriXCeNJzT2Q&s",
+      "title": "Váy maxi",
+      "image": "https://picsum.photos/300/200",
       "description": "Th Mascara Lash Princess",
-      "price": 13.99
+      "price": 1500
+    },
+    {
+      "title": "Áo dài tay",
+      "image": "https://picsum.photos/300/200",
+      "price": 23000,
+      "description": "Áo tay bồng",
+      "id": 3
     }
   ]
 }
